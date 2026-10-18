@@ -1,10 +1,13 @@
+# Wire: first-party host. GET https://webwright.ai/v1/models returns wren-r1-fast, and POST https://webwright.ai/v1/chat/completions accepts it.
+# The chat request publishes supported_parameters.reasoning as a boolean.
+# Sources: https://webwright.ai/v1, https://webwright.ai/v1/provider/models and https://webwright.ai/models.
 name = "Wren R1 (Priority)"
 description = "WebWright's Wren R1 chat model on the Premium plan, served over an OpenAI-compatible API with priority capacity, a 200K context window, tool calling, reasoning and structured outputs"
 release_date = "2026-06-22"
 last_updated = "2026-06-22"
 attachment = false
 reasoning = true
-reasoning_options = [{ type = "effort", values = ["none", "minimal", "low", "medium", "high", "xhigh", "max"] }]
+reasoning_options = [{ type = "toggle" }]
 tool_call = true
 structured_output = true
 temperature = true
