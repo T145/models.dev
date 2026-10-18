@@ -1,0 +1,23 @@
+name = "Wren R1 (Priority)"
+description = "WebWright's Wren R1 chat model on the Premium plan, served over an OpenAI-compatible API with priority capacity, a 200K context window, tool calling, reasoning and structured outputs"
+release_date = "2026-06-22"
+last_updated = "2026-06-22"
+attachment = false
+reasoning = true
+reasoning_options = [{ type = "effort", values = ["none", "minimal", "low", "medium", "high", "xhigh", "max"] }]
+tool_call = true
+structured_output = true
+temperature = true
+open_weights = false
+
+[cost]
+input = 0.80
+output = 3.20
+
+[limit]
+context = 200000
+output = 200000
+
+[modalities]
+input = ["text"]
+output = ["text"]
