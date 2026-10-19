@@ -4,8 +4,6 @@
 # Sources: https://webwright.ai/v1, https://webwright.ai/v1/provider/models and https://webwright.ai/models.
 name = "Wren R1 (Priority)"
 description = "WebWright's Wren R1 chat model on the Premium plan, served over an OpenAI-compatible API with priority capacity, a 200K context window, tool calling and structured outputs"
-release_date = "2026-06-22"
-last_updated = "2026-06-22"
 attachment = false
 reasoning = false
 tool_call = true
