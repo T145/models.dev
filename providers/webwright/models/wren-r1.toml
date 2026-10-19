@@ -3,8 +3,6 @@
 # Limits and pricing: https://webwright.ai/models and https://webwright.ai/pricing.
 name = "Wren R1"
 description = "WebWright's Wren R1 chat model on the Standard plan, served over an OpenAI-compatible API with a 200K context window, tool calling and structured outputs"
-release_date = "2026-06-22"
-last_updated = "2026-06-22"
 attachment = false
 reasoning = false
 tool_call = true
